@@ -1,0 +1,27 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffe2f3;
+  position: relative;
+  overflow: hidden;
+}
+
+.sm-card {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #f60074;
+  text-align: center;
+}
+
+.add_btn {
+  border: none;
+  background-color: #ffc4e7;
+  padding: 4px 20px;
+  margin-top: 6px;
+}
