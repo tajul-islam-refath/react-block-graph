@@ -22,12 +22,6 @@ function App() {
     nexBlock["parent"] = parent < 0 ? null : parent;
     nexBlock["left"] = left;
     nexBlock["top"] = top;
-    nexBlock["childs"] = [];
-
-    if (parent != -1) {
-      let parentBlock = blocks.find((block) => block.id == parent);
-      parentBlock.childs.push(nexBlock);
-    }
 
     setBlocks(() => [...blocks, nexBlock]);
   };
